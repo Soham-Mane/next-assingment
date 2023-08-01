@@ -1,0 +1,156 @@
+.container{
+    width: 375px;
+    height: 812px;
+    background-color: #69235B;
+    position: relative;
+}
+.rectangle{
+    width: 191px;
+    height: 30px;
+    background-color: #CBCBFF;
+    position: absolute;
+    top: 283px;
+    left: 91px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #69235B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+       font-family: 'Inter', sans-serif;
+
+}
+
+.socialUi{
+    width: 184px;
+    height: 48px;
+    position: absolute;
+    top: 587px;
+    left: 96px;
+    border: 1px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Group{
+    width: 48px;
+    height: 48px;
+}
+.orUi{
+    width: 315px;
+    height: 14px;
+    position: absolute;
+    top: 649px;
+    left: 31px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 132px;
+    height: 1px;
+    border-top: 1px solid rgba(205, 209, 208, 1);
+    ;
+  }
+  
+  .orText {
+    margin: 0 10px; /* Adjust the spacing between the lines and the text */
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(205, 209, 208, 1);
+  }
+  .existing{
+    width: 224px;
+    height: 14px;
+    position: absolute;
+    top: 756px;
+    left: 76px;
+    gap: 5px;
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .existing span{
+    color: #fbbc04;
+
+  }
+  .Signup span{
+    color: #fbbc04;
+
+  }
+  /* .existing span:first-child{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;  
+    margin-right: 5px;  
+
+
+  }
+  .existing span:last-child{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;  
+    cursor: pointer;  
+
+  } */
+  .btn{
+    width: 340px;
+    height: 54px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    top: 677px;
+    left: 23px;
+    background-color: #ffc746;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(105, 35, 91, 1);
+    cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif
+
+  }
+  .discover{
+    width: 291px;
+    height: 85px;
+    position: absolute;
+    top: 375px;
+   left: 39px;
+    /* background-color: aliceblue; */
+    color: white;
+    font-weight: 600px;
+    font-size: 32px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  .ved{
+    color: #ffc746;
+    font-weight: 600;
+    font-size: 32px;
+    position: absolute;
+    left: 39px;
+    top: 450px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+  }
+  .Signup{
+    width: 298px;
+    height: 52px;
+    position: absolute;
+    top: 500px;
+    left: 44px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+  font-family: 'Kumbh Sans', sans-serif
+
+  }

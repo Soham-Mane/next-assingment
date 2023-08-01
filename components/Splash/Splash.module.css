@@ -1,0 +1,44 @@
+.container{
+    width: 375px;
+    height: 812px;
+    background-color:white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.time{
+    position: absolute;
+    top: 7px;
+    left: 21px;
+}
+.Frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 172px;
+    height: 172px;
+    position: absolute;
+    top: 320px;
+    left: 101px;
+}
+
+.text{
+    width: 295px;
+    height: 25px;
+    position: absolute;
+    top: 695px;
+    left: 40px;
+}
+.text span{
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+     justify-content: center;
+     color: #69235B;
+     line-height: 24.8px;
+     font-family: 'Kumbh Sans', sans-serif;
+}

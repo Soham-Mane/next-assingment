@@ -1,0 +1,52 @@
+.container{
+    width: 375px;
+    height: 44px;
+    background-color: white;
+    position: relative;
+}
+.Frame{
+    width: 54px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    /* background-color: aquamarine;    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Frame span{
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.emojis{
+    height: 20px;
+    width: 66px;
+    /* background-color: rgb(255, 253, 253); */
+    position: absolute;
+    top: 15px;
+    left: 284px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+}
+.network{
+    width: 17px;
+    height: 10px;
+}
+.wifi{
+    width: 15px;
+    height: 11px;
+}
+.battery{
+    width:24px ;
+    height: 11px;
+}

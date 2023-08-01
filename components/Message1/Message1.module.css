@@ -1,0 +1,294 @@
+.container{
+    width: 375px;
+    height: 812px;
+    background-color: rgba(248, 248, 255, 1);
+    position: relative;
+}
+.container .rectangle1{
+    position: absolute;
+    top: 132px;
+    left: 13px;
+}
+.limi{
+    font-weight:600;
+    font-size: 13px;
+    line-height: 16px;
+    position: absolute;
+    top: 514px;
+    left: 40px;
+    color: #69235B;
+    /* background-color: #A1A1A1; */
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    gap: 5px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.box1{
+    width: 283px;
+    height: 43px;
+    border-radius: 19px;
+    position: absolute;
+    top: 336px;
+    left: 51px;
+    background-color: #fbbc04;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    /* padding: 2px; */
+}
+.box2{
+    width: 283px;
+    height: 51px;
+    position: absolute;
+    top: 383px;
+    left: 51px;
+    border-radius: 19px;
+    background-color: #fbbc04;
+    padding-left: 10px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box3{
+    width: 283px;
+    height: 51px;
+    position: absolute;
+    top: 438px;
+    left: 51px;
+    border-radius: 19px;
+    background-color: #fbbc04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+.queries{
+    width: 205px;
+    height: 20px;
+    position: absolute;
+    top: 304px;
+    left: 100px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19.84px;
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 5px;
+}
+.queries span{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.queries img{
+    width: 19px;
+    height: 21px;
+}
+/* styles.module.css */
+.Frame {
+    width: 328px;
+    height: 56px;
+    position: absolute;
+    top: 726px;
+    left: 23px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line to separate the images */
+    box-shadow: 5px 4px 20px 0 rgba(0, 0, 0, 0.13);
+
+  }
+  
+  .Frame input {
+    color: #A1A1A1;
+    margin-left: 22px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Style the images as needed */
+   .img1{
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+ position: absolute;
+ top: 16px;
+ left: 262px;
+ margin-right: 2px;
+  }
+  .img2{
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+ position: absolute;
+ top: 16px;
+ left: 286px;
+  }
+.Group364{
+    width: 280px;
+    height:  95px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 572px;
+    left: 13px;
+}
+
+.rectangle{
+    width: 40px;
+    height: 40px;
+    border-radius: 31px;
+    background-color: #fbbc04;
+    margin-right: 10px;
+}
+.timeContainer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgba(121, 124, 123, 1);
+    font-size: 10px;
+    font-weight: 100;
+}
+/* .chat{
+    position: absolute;
+    background-color: #69235B;
+    width: 232px;
+    height: 68px;
+    top: 8px;
+    right: 0;
+    border-radius:0px  10px 10px 10px;  
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+} */
+
+.chat {
+    position: absolute;
+    background-color: #69235B;
+    width: 232px;
+    height: 68px;
+    top: 8px;
+    right: 0;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    /* padding-left: 2px; */
+    /* padding-left: 10px; Adjust the value as per your desired spacing */
+  }
+  .chat span{
+    margin-left: 7px;
+  }
+.rectangle81{
+    width: 375px;
+    height: 124px;
+    border: 0px 0px 1px 0px;
+    background: rgb(205, 7, 7);
+    gap: 10px;
+}
+.tabBar{
+width: 322px;
+height: 44px;
+position: absolute;
+top: 60px;
+left: 24px;
+/* border-radius: 31px; */
+background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3px;
+}
+.Group50{
+    width: 230px;
+    height: 34px;
+    background-color: white;  
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+align-items: flex-start;
+}
+.span1{
+font-weight: 500;
+font-size: 16px;
+color: #69235B;
+line-height: 16px;
+}
+ .span2{
+font-weight: 800;
+font-size: 16px;
+color:  rgba(251, 188, 4, 1);
+}
+.span3{
+   font-weight: 275; 
+font-size: 16px;
+line-height: 16px;
+color: rgba(251, 220, 148, 1);
+}
+.text5{
+    display: flex;
+    
+}
+.vedic{
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 12px;
+    color: #797c7b;
+    position: absolute;
+    bottom: 0;
+}
+.text2{
+    /* background-color: aqua; */
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 12px;
+    color:  rgba(121, 124, 123, 1);
+   display: flex;
+   align-items: flex-end;
+}
+.Group360{
+    width: 273px;
+    height: 136px;
+    position: absolute;
+    top: 140px;
+    left: 61px;
+    background-color: rgba(105, 35, 91, 1);
+    border-radius:0px  10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:start;  
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+.Group360 span{
+    width: 261px;
+height: 77px;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: rgba(255, 255, 255, 1);
+font-family: 'Inter', sans-serif;
+padding: 5px;
+}

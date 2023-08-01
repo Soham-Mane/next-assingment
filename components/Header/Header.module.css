@@ -1,0 +1,83 @@
+.rectangle81{
+    width: 375px;
+    height: 124px;
+    border: 0px 0px 1px 0px;
+    /* background: rgb(205, 7, 7); */
+    background-color: white;
+    gap: 10px;
+}
+.logo{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 60px;
+    left: 62px;
+}
+.back{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 70px;
+    left: 24px;
+}
+.arya{
+    width: 34px;
+    height: 16px;
+    position: absolute;
+    top: 65px;
+    left: 116px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #69235B;
+    font-family: 'Raleway', sans-serif;
+}
+.hindi{
+    width: 29px;
+height: 16px;
+position: absolute;
+top: 70px;
+left: 317px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.span1{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(251, 188, 4, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+.span2{
+    font-weight: 275px;
+    font-size: 16px;
+    color:rgba(251, 220, 148, 1);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+
+}
+.linkwithoutUnderline{
+    text-decoration: none;
+}
+.vedic{
+    width: 67px;
+height: 12px;
+position: absolute;
+top: 87px;
+left: 116px;
+font-weight: 100;
+font-size: 12px;
+line-height: 12px;
+color: #797c7b;
+font-family: 'Inter', sans-serif;
+}
+.online{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 92px;
+    left: 96px;
+}

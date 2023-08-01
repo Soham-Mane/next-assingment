@@ -1,0 +1,11 @@
+.socialUi{
+    width: 184px;
+    height: 48px;
+    /* position: absolute;
+    top: 252px;
+    left: 95px; */
+    /* background-color: #69235B; */
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}

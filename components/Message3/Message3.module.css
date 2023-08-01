@@ -1,0 +1,252 @@
+.container{
+    width: 375px;
+    height: 812px;
+    background-color: rgba(248, 248, 255, 1);
+    position: relative;
+
+}
+.today{
+    width: 51px;
+    height: 22px;
+    /* background-color: aquamarine; */
+  position: absolute;
+  left: 162px;
+  top: 144px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: right;
+  color: #69235b;
+}
+.text1{
+width: 141px;
+height: 54px;
+position: absolute;
+top: 186px;
+left: 210px;
+/* background-color: #69235b; */
+
+}
+.text1 div{
+    width: 141px;
+    height: 36px;
+    background-color: #fbbc04;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    border-radius: 10px 0px  10px 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-family: 'Inter', sans-serif;
+
+}
+.span{
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 10px;  
+    display: flex;  
+    justify-content: end;
+    margin-top: 5px;
+    color: #797c7b;
+}
+.text2{
+    width: 190px;
+    height: 36px;
+    position: absolute;
+    top: 276px;
+    left: 72px;
+    background-color: #69235b;
+    color: white;
+    border-radius: 0 10px 10px 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Mukta', sans-serif;
+
+}
+.time1{
+    position: absolute;
+    top: 320px;
+    left: 212px;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(121, 124, 123, 1);
+}
+.txt{
+    width: 190px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #69235b;
+    border-radius: 0px 10px 10px 10px;
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+}
+.txt2{
+    display: flex;
+}
+.text3{
+width: 141px;
+height: 54px;
+position: absolute;
+left: 206px;
+top: 386px;
+/* background-color: #69235b; */
+}
+.text3 div{
+    width: 141px;
+    height: 36px;
+    background-color: #fbbc04;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    border-radius: 10px 0px  10px 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-family: 'Inter', sans-serif;
+
+}
+.text4{
+    width: 232px;
+    height: 108px;
+    position: absolute;
+    top: 470px;
+    left: 24px;
+    /* background-color: #69235b; */
+    display: flex;
+ 
+}
+.txt4 {
+    width: 184px;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+  /* justify-content: flex-end; /* Align content to the right */
+  /* align-items: flex-end; Align items to the bottom */ 
+  position: absolute; /* Set .txt4 to absolute positioning */
+  right: 0; /* Align the .txt4 div to the rightmost */
+  bottom: 0; 
+
+  }
+
+  .anything{
+    width: 200px;
+    height: 82px;
+    /* background-color: #fbbc04; */
+  }
+  .t1{
+    width: 190px;
+    height: 36px;
+    background-color: #69235b;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    position: absolute;
+    top: 478px;
+    left: 72px;  
+    font-family: 'Mukta', sans-serif;
+
+}
+.t2{
+    width: 112px;
+    height: 36px;
+    background-color: #69235b;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    position: absolute;
+    top: 527px;
+    left: 72px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.time4{
+    position: absolute;
+    top: 568px;
+    left: 131px;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(121, 124, 123, 1);
+}
+.txt4 span{
+    display: flex;
+    justify-content: center;
+}
+.rectangle{
+    width: 44px;
+    height: 44px;
+}
+
+.Frame {
+    width: 328px;
+    height: 56px;
+    position: absolute;
+    top: 726px;
+    left: 23px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line to separate the images */
+    box-shadow: 5px 4px 20px 0 rgba(0, 0, 0, 0.13);
+
+  }
+  
+  .Frame span {
+    color: #A1A1A1;
+    margin-left: 22px;
+    font-family: 'Inter', sans-serif;
+
+  }
+  
+  /* Style the images as needed */
+   .img1{
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+ position: absolute;
+ top: 16px;
+ left: 262px;
+ margin-right: 2px;
+  }
+  .img2{
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+ position: absolute;
+ top: 16px;
+ left: 286px;
+  }
+.logo2{
+    position: absolute;
+    left:24px;
+    top: 270px;
+}
+.logo4{
+    position: absolute;
+    left:24px;
+    top: 470px;
+  }
