@@ -1,7 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 Check the Demo Video out here
 https://github.com/Soham-Mane/next-assingment/assets/116940634/d6f77146-8eb6-428b-8467-03d20856b2c3
-
+Check the webiste here
+https://next-assingment-intern.vercel.app/
 ## Getting Started
 
 First, run the development server:
