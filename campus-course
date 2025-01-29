@@ -1,0 +1,152 @@
+import React, { useState } from 'react';
+import { PlusCircle, Trash2 } from 'lucide-react';
+
+const CampusForm = () => {
+  const [campuses, setCampuses] = useState([
+    { id: 1, name: '', courses: [] }
+  ]);
+
+  const addCampus = () => {
+    setCampuses([
+      ...campuses,
+      { id: Date.now(), name: '', courses: [] }
+    ]);
+  };
+
+  const removeCampus = (campusId) => {
+    setCampuses(campuses.filter(campus => campus.id !== campusId));
+  };
+
+  const addCourse = (campusId) => {
+    setCampuses(campuses.map(campus => {
+      if (campus.id === campusId) {
+        return {
+          ...campus,
+          courses: [...campus.courses, { id: Date.now(), name: '' }]
+        };
+      }
+      return campus;
+    }));
+  };
+
+  const removeCourse = (campusId, courseId) => {
+    setCampuses(campuses.map(campus => {
+      if (campus.id === campusId) {
+        return {
+          ...campus,
+          courses: campus.courses.filter(course => course.id !== courseId)
+        };
+      }
+      return campus;
+    }));
+  };
+
+  const handleCampusChange = (campusId, value) => {
+    setCampuses(campuses.map(campus => {
+      if (campus.id === campusId) {
+        return { ...campus, name: value };
+      }
+      return campus;
+    }));
+  };
+
+  const handleCourseChange = (campusId, courseId, value) => {
+    setCampuses(campuses.map(campus => {
+      if (campus.id === campusId) {
+        return {
+          ...campus,
+          courses: campus.courses.map(course => {
+            if (course.id === courseId) {
+              return { ...course, name: value };
+            }
+            return course;
+          })
+        };
+      }
+      return campus;
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form Data:', campuses);
+    // Here you can handle the form submission
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="max-w-2xl mx-auto p-6 space-y-6">
+      <h2 className="text-2xl font-bold mb-4">Campus and Course Management</h2>
+      
+      {campuses.map(campus => (
+        <div key={campus.id} className="border rounded-lg p-4 space-y-4 bg-white shadow">
+          <div className="flex items-center gap-4">
+            <input
+              type="text"
+              value={campus.name}
+              onChange={(e) => handleCampusChange(campus.id, e.target.value)}
+              placeholder="Enter campus name"
+              className="flex-1 p-2 border rounded"
+            />
+            <button
+              type="button"
+              onClick={() => removeCampus(campus.id)}
+              className="text-red-500 hover:text-red-700"
+            >
+              <Trash2 size={20} />
+            </button>
+          </div>
+
+          <div className="pl-4 space-y-2">
+            {campus.courses.map(course => (
+              <div key={course.id} className="flex items-center gap-4">
+                <input
+                  type="text"
+                  value={course.name}
+                  onChange={(e) => handleCourseChange(campus.id, course.id, e.target.value)}
+                  placeholder="Enter course name"
+                  className="flex-1 p-2 border rounded"
+                />
+                <button
+                  type="button"
+                  onClick={() => removeCourse(campus.id, course.id)}
+                  className="text-red-500 hover:text-red-700"
+                >
+                  <Trash2 size={16} />
+                </button>
+              </div>
+            ))}
+            
+            <button
+              type="button"
+              onClick={() => addCourse(campus.id)}
+              className="flex items-center gap-2 text-blue-500 hover:text-blue-700"
+            >
+              <PlusCircle size={16} />
+              <span>Add Course</span>
+            </button>
+          </div>
+        </div>
+      ))}
+
+      <div className="flex justify-between">
+        <button
+          type="button"
+          onClick={addCampus}
+          className="flex items-center gap-2 text-green-500 hover:text-green-700"
+        >
+          <PlusCircle size={20} />
+          <span>Add Campus</span>
+        </button>
+
+        <button
+          type="submit"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  );
+};
+
+export default CampusForm;
