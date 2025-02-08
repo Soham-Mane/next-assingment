@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 https://github.com/Soham-Mane/next-assingment/assets/116940634/d6f77146-8eb6-428b-8467-03d20856b2c3
 # Check the webiste here
 https://next-assingment-intern.vercel.app/
-## Getting Started
+## Getting Started.
 
 First, run the development server:
 
